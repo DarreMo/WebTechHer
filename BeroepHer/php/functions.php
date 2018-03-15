@@ -114,16 +114,16 @@ function movie_desc_page($dbh, $title) {
     '
     <div class="movie-info">
     <h1> '.$mname. ' </h1>
-    <div class= "poster">
+    <div class="poster-desc">
     <img src= ../img/poster/'.$poster.'></div>
-    Duur: '.$dur.'
-    Jaar: '.$year.' </div>
+    <h2>Duur:</h2> '.$dur.'<br>
+    <h2>Jaar:</h2> '.$year.' </div>
     
     <div class="movie-desc">
     Beschrijving:  '.$desc.' </div>
     
     <div class="trailer">
-    <iframe width="640" height="480" src= '.$url.'>
+    <iframe width="640" height="480" src= '.$url.' >
     </iframe>
     </div>';
     

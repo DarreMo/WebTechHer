@@ -7,7 +7,6 @@ body{
     background: url(../img/Anime-Background.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background- 
     background-color: black;
 }
 
@@ -188,7 +187,7 @@ a.menu:hover {
     width: 200px;
 }
 
-.poster-detail img{
+img.poster-desc{
     margin: 10px;
     height: 720px;
     width: 480px;
@@ -309,5 +308,10 @@ a.menu:hover {
     
     padding: 25px;
     margin: 5px;
+    
+}
+
+.results {
+    display: flex;
     
 }
