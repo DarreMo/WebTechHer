@@ -1,0 +1,313 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: url(../img/Anime-Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background- 
+    background-color: black;
+}
+
+nav{
+    max-height: 100px;
+    background: #d60d42;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+}
+
+form.content { 
+    width: 30%;  
+    margin: 0px auto;
+    padding: 20px;   
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    
+}
+
+.btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+}
+
+
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+}
+
+.brand a{
+    text-decoration: none;
+    color: black;
+    font-size: 50px;
+}
+
+.logo{
+    max-height: 100px;
+}
+
+
+a.menu{
+    font-size: 30px;
+    font-weight: 600;
+    align-content: center center;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid #1a237e;
+}
+
+a.menu:visited {
+    color: green;
+    text-decoration: none;
+}
+
+a.menu:hover {
+  transition: 0.5s;
+  background-color: #1a237e;
+}
+
+.content{
+    display: flex;
+    margin: 25px;
+    
+    flex-direction: row; 
+    justify-content: space-around;
+    flex-wrap: wrap; 
+    text-decoration: wavy;
+    text-decoration-color: #d60d42;
+}
+
+.vid-offer {
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: space-around;
+}
+
+.free-vid{
+    float: left;
+}
+
+.free-vid h1, .title h1, .About-us-Header{
+    color: red;
+    max-height: 35px;
+}
+
+.poster-box{
+    background-color: #d60d42;
+    justify-content: space-between;
+}
+
+.poster-box-list{
+    display: flex;
+    background-color: #d60d42;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.advert{
+    
+    align-content: space-between;
+    margin-top: 35px;
+    flex-direction: column;
+    float: right;
+    border: 5px;
+    border-color: slateblue;
+    background-color: #d60d42;
+    max-width: 250px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.poster {
+    flex-direction: row;
+    justify-content: center
+}
+
+
+.poster a{
+    text-decoration: none;
+    text-align: center;
+    text-decoration-color:black;
+}
+
+
+.poster img{
+    
+    margin: 5px;
+    height: 320px;
+    width: 200px;
+}
+
+.poster-detail img{
+    margin: 10px;
+    height: 720px;
+    width: 480px;
+}
+
+.textbox{    
+    margin: 50px;
+    display: flex;
+    max-width: 750px;
+    align-content: flex-start;
+    border: 1px slateblue;
+    background-color: #d60d42;
+}
+
+.About-us {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 100px;
+    border: 50px;
+    border-color: slateblue;
+    background-color: #d60d42;
+}
+
+.About-us-Jeffrey {
+    flex-direction: column;
+    display: flex;
+    color: gold;
+}
+
+.About-us-Sem {
+    flex-direction: column;
+    display: flex;
+    color: white;
+}
+
+.About-us-Timon {
+    flex-direction: column;
+    display: flex;
+    color: green;
+}
+
+.About-us-Header{
+    font-size: 50px;
+    text-align: center;
+    padding: 20px;
+    color: cyan;
+}
+
+/**/
+.About-us-Textbox{
+    justify-content: center;
+    max-width: 750px;
+    background-color: #d60d42;
+    color: black;
+}
+
+.Login{
+    height: 300px;
+    width: 500px; 
+    margin: 100px;
+    border: 5px;
+    border-color: slateblue;
+    background-color: #d60d42;
+}
+
+.Username{
+    margin: 50px;
+    font-size: 25px;
+    background-color:black;
+    max-width: 250px;
+    border: 5px;
+}
+
+.Password{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 25px;
+    background-color:black;
+    max-width: 250px;
+    border: 5px;
+}
+
+.Login-box{
+    font-size: 25px;
+}
+
+.Registreren{
+    margin-top: 5px;
+    margin-left: 55px;
+    font-size: 10px;
+}
+
+.Login-knop{
+    margin-left: 375px;
+    margin-top: 25px;
+    font-size: 25px; 
+    background-color:black;
+    max-width: 75px;
+    border: 5px;
+}
+
+.package{
+    
+    height: 670px;
+    width: 430px;
+    
+    padding: 25px;
+    margin: 5px;
+    
+    background: pink;
+}
+
+.filler{
+    
+    height: 670px;
+    width: 430px;
+    
+    padding: 25px;
+    margin: 5px;
+    
+}
