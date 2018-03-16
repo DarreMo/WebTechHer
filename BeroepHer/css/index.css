@@ -27,6 +27,10 @@ form.content {
     border-radius: 0px 0px 10px 10px;
 }
 
+form.forms {
+    font-size: 25px;
+}
+
 .input-group {
     margin: 10px 0px 10px 0px;
 }
@@ -107,8 +111,8 @@ a.menu:visited {
 }
 
 a.menu:hover {
-  transition: 0.5s;
-  background-color: #1a237e;
+    transition: 0.5s;
+    background-color: #1a237e;
 }
 
 .content{
@@ -187,11 +191,6 @@ a.menu:hover {
     width: 200px;
 }
 
-img.poster-desc{
-    margin: 10px;
-    height: 720px;
-    width: 480px;
-}
 
 .textbox{    
     margin: 50px;
@@ -311,7 +310,64 @@ img.poster-desc{
     
 }
 
-.results {
+.results{
     display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    width: 1200px;
+    
+    
+    justify-content: center;
+    align-content: center;
+}
+
+.result {
+    color: whitesmoke;
+
+    border: 1px solid  #d60d42;   
+    padding:5px;
+    
+    height:600px;
+    width: 350px;
+    
+    text-align: center;
+}
+
+img.poster-result{
+    
+    height: 480px;
+    width: 320px;
+}
+
+img.poster-desc{
+    margin: 10px;
+    height: 720px;
+    width: 480px;
+}
+
+.description-page{
+    margin: 15px;
+
+    display: flex;
+}
+
+.movie-info{
+    border: 1px solid #d60d42;
+    color:whitesmoke;      
+    text-align: center;
+}
+
+.movie-content{
+    width: 700px;
+    margin: 10px;
+}
+
+.movie-desc{
+   
+    border: 1px solid  #d60d42;
+}
+
+.movie-desc {
+    color: whitesmoke;
     
 }

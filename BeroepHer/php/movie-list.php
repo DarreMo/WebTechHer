@@ -19,8 +19,8 @@
 <form action="movie-list.php" method="get">
 <input type="text" name="search" placeholder="search for movies"/>
 <button class="btn">Search</button>
-
 </form>
+</div></div>
 <div class= "results">
 <?php
 

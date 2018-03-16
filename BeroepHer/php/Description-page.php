@@ -11,12 +11,12 @@
 
 <?php include("navbar2.php"); ?>
 
-<div class = "content">
+<div class = "description-page">
 <?php
 
 $dbh = get_database_connection();
 $title = $_GET['defilm'];
-
+  
 if(isset($_GET['defilm'])){ 
   movie_desc_page($dbh, $title);
 }
